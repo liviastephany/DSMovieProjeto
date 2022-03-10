@@ -55,7 +55,7 @@ nav a {
     margin-right: 10px;
 }
 .lsmovie-card {
-width:360px;
+width:100%;
 
 
 }
@@ -70,17 +70,21 @@ width:360px;
 }
 
 .lsmovie-card-description {
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between ;
     background-color: var(--white);
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
 }
 .lsmovie-card-description h3 {
     margin-bottom: 25px;
     font-size: 14px;
     font-weight: 700;
+    text-align: center;
+    
 }
 
 .ls-btm, .ls-btm:hover {
