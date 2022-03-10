@@ -63,7 +63,7 @@ width:100%;
 
 }
 #lsmovie-cardlist {
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 
 .lsmovie-card img {
@@ -150,7 +150,7 @@ width: 22px;
 .lsmovie-form-description h3 {
     font-size: 13px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .lsmovie-form-group {
