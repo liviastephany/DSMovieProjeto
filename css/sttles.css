@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 :root {
-    --bg-gray:var(--bg-gray) #ddd;
+    --bg-gray: #ddd;
     --color-primary: #4D41C0;
-    --white: #fff
+    --white: #fff;
+    --text-gray: #4A4A4A;
 }
 * {
    
@@ -12,7 +13,7 @@
 }
 
 html, body {
-    background-color: var(--bg-gray);;
+    background-color: var(--bg-gray);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -53,3 +54,45 @@ nav a {
 .lsmovie-contact-container img {
     margin-right: 10px;
 }
+.lsmovie-card {
+width:360px;
+
+
+}
+#lsmovie-cardlist {
+    padding: 40px 0;
+}
+
+.lsmovie-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.lsmovie-card-description {
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 0 0 8px 8px;
+}
+.lsmovie-card-description h3 {
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ls-btm, .ls-btm:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
