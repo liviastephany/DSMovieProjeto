@@ -63,7 +63,7 @@ width:100%;
 
 }
 #lsmovie-cardlist {
-    padding: 40px 10px;
+    padding: 0 10px;
 }
 
 .lsmovie-card img {
@@ -169,4 +169,51 @@ width: 22px;
     align-items: center;
     justify-content: space-between;
 }
+.lsmovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lsmovie-pagination-box {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.lsmovie-pagination-box p {
+    margin: 0%;
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 400;
+}
+.lsmovie-pagination-box button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--white);
+}
+.lsmovie-pagination-box button: disabled {
+    border: 1px solid var(--text-light-gray);
+}
+
+.lsmovie-pagination-box button img {
+    filter: brightness(0) saturate(100%)  invert(30%) sepia(52%) saturate(2668%) hue-rotate(232deg) brightness(76%) contrast(96%);
+}
+
+
+.lsmovie-flip-horizontal {
+    transform: rotate(180deg);
+
+}
+
+.lsmovie-pagination-box button: disabled img {
+    filter: unset;  
+}
+ 
+
 
